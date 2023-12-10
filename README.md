@@ -74,11 +74,21 @@ CUDA_VISIBLE_DEVICES=0 python roberta_ner/train.py \
 ## Citing
 Please cite the following paper if you found the resources in this repository useful.
 ```
-@article{long2023adapt,
-  title={Adapt in Contexts: Retrieval-Augmented Domain Adaptation via In-Context Learning},
-  author={Long, Quanyu and Wang, Wenya and Pan, Sinno Jialin},
-  journal={arXiv preprint arXiv:2311.11551},
-  year={2023}
+@inproceedings{long-etal-2023-adapt,
+    title = "Adapt in Contexts: Retrieval-Augmented Domain Adaptation via In-Context Learning",
+    author = "Long, Quanyu  and
+      Wang, Wenya  and
+      Pan, Sinno",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.402",
+    pages = "6525--6542",
 }
 ```
 
