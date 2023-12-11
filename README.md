@@ -1,5 +1,5 @@
-# DAICL
-Code for EMNLP 2023 paper [Adapt in Contexts: Retrieval-Augmented Domain Adaptation via In-Context Learning](https://arxiv.org/abs/2311.11551).
+# Retrieval Augmented Domain Adaptation
+Code for EMNLP 2023 paper Adapt in Contexts: Retrieval-Augmented Domain Adaptation via In-Context Learning ([Arxiv](https://arxiv.org/abs/2311.11551)).
 
 We propose to retrieve similar examples from the target unlabeled corpus to serve as the context of a source query and perform adaptive in-context learning by concatenating the source query and target contexts as the input prompt. And we propose a domain-adaptive in-context learning (DAICL) framework for different LM architectures, including encoder-only and decoder-only models.
 
